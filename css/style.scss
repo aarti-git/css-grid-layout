@@ -1,0 +1,12 @@
+#myid {
+    background-color: red;
+
+    @include above('tb') {
+        background-color: green;
+    };
+
+    @include above('ds') {
+        background-color: pink;
+        z-index: 0;
+    }
+}
